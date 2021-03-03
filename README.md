@@ -11,8 +11,12 @@
 > box()
 ```
 <center>
-<img src="ma_worldhires.png"width=393px></img>
+<img src="map_worldhires.png"width=393px></img>
 </center>
+
+```r
+plot(freq$Allele_A, freq$lat)
+> plot(freq$Allele_A, freq$lat, xlab="f(A) rs1426654", ylab="Latitude", p       cex=0.8, col=c('red','blue','darkgreen','salmon','black'), pch
 
 3.Human Population plot
 ```r
